@@ -1,1 +1,1 @@
-README FOR THE REPOSITORY # holbertonschool-shell
+README #holbertonschool-shell
