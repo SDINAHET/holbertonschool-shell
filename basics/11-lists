@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo -S ls -la /holbertonschool-shell /root /boot
+echo $password | sudo -S ls -la /holbertonschool-shell /root /boot
