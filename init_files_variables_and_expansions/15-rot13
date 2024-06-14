@@ -1,0 +1,2 @@
+#!/bin/bash
+print((lambda text: text.translate(str.maketrans("ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz", "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm")))("Hello, World!"))
