@@ -1,2 +1,2 @@
 #!/bin/bash
-find -type d | tr ":" "\n" | wc -l
+find . -type d | tr ':' '\n' | wc -l
