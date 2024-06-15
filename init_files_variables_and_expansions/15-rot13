@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Hello World" > 15-rot13 | tr 'A-Za-z' 'N-ZA-Mn-za-m' < 15-rot13
+echo "Hello World" > 15-rot13 | tr '''[A-Za-z]''' '''[N-ZA-Mn-za-m]'''  < 15-rot13
