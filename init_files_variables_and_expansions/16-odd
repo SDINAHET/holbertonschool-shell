@@ -1,3 +1,2 @@
 #!/bin/bash
 ls -l | cat -n | grep '^[[:space:]]*[1-9]*[13579][[:space:]]' | cut -c8-
-
