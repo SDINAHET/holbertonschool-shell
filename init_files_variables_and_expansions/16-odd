@@ -1,2 +1,3 @@
 #!/bin/bash
-ls -l | tail -n +1 | head -n $(($(ls -l | wc -l) / 2))
+ls -l | cat -n | grep '^[[:space:]]*[1-9]*[13579][[:space:]]' | cut -c8-
+
