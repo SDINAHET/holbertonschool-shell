@@ -1,1 +1,2 @@
 #!/bin/bash
+.ls -l*.gif | find . -type f -empty -exec sh -c 'for file; do basename "${file%.*}" | LC_ALL=C sort -f | sed '/^\s*$/d'
