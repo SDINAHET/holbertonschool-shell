@@ -1,2 +1,2 @@
 #!/bin/bash
-print((lambda text: text.translate(str.maketrans("ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz", "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm")))("Hello, World!"))
+echo "hello world" | tr 'A-Za-z0-9' 'N-ZA-Mn-za-m5-90-4'
